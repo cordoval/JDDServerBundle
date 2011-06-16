@@ -13,14 +13,12 @@ class ServeCommand extends Command
     {
         $this
             ->setName('server:serve')
-            ->setDescription('Run a local webserver (only intended for development!)')
-            ->addOption('port', 'p', InputArgument::OPTIONAL, 'The port to run the server on', 8080);
+            ->setDescription('Run a local webserver (only intended for development!)');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $port = $input->getArgument('port');
-        $output->writeln($port);
+     
     }
 }
             
