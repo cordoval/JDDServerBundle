@@ -1,5 +1,5 @@
 <?php
-namespace JDD\ServerBundle\Command
+namespace JDD\ServerBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
