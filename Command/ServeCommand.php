@@ -1,3 +1,4 @@
+<?php
 namespace JDD\ServerBundle\Command
 
 use Symfony\Bundle\FrameworkBundle\Command\Command;
